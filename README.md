@@ -77,7 +77,7 @@ $agent = Agent::getAll();
 // @return bool
 if(Agent::isBot())
 {
-    //Action if the visitor is a boot.
+    //Action if the visitor is a bot.
 }
 ```
 
