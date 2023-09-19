@@ -1,0 +1,33 @@
+{
+    "name": "yuniorhernandez/agent",
+    "description": "Get user agent, IP address, browser, device operating system and user location.",
+    "keywords": ["agent", "user-agent", "get browser", "get device", "operating system", "location", "ip address"],
+    "license": "MIT",
+    "type": "project",
+    "version": "1.2.6",
+    "autoload": {
+        "psr-4": {
+            "Yuniorhernandez\\Agent\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Y Hernandez",
+            "email": "yuniorhernandez2002@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^8.10"
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yuniorhernandez\\Agent\\AgentServiceProvider"
+            ],
+            "aliases": {
+                "Agent": "Yuniorhernandez\\Agent\\Facades\\Agent"
+            }
+        }
+    }
+}
