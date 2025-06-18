@@ -16,6 +16,9 @@
             "email": "yuniorhernandez2002@gmail.com"
         }
     ],
+    "require": {
+        "php": "^8.1"
+    },
     "require-dev": {
         "orchestra/testbench": "^8.10"
     },
